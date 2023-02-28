@@ -243,7 +243,7 @@ import {
                 <Text>CSS,</Text>
                 <Text>JavaScript</Text>
               </HStack>
-              <Text color="green.500" fontWeight="bold">Collobarotive project built in 4 day</Text>
+              <Text color="green.500" fontWeight="bold">Collobarotive project built in 4 days</Text>
               <HStack>
                 <Button
                   righticon={<FaGithub />}
