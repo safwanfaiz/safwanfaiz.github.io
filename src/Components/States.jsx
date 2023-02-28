@@ -29,7 +29,7 @@ const States = () => {
         </HStack>
         <HStack justify="center" data-aos="fade-up">
           <GitHubCalendar
-            transformData={selectLastHalfYear}
+            // transformData={selectLastHalfYear}
             username="safwanfaiz"
           >
             <ReactTooltip delayShow={10} html />

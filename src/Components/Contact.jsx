@@ -91,10 +91,10 @@ function Contact() {
             MohammedSafwan Faizahmed 
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
-            7600019111
+             Phone No:- +91 7600019111
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
-            safwanfaiz8@gmail.com
+            Gmail :- safwanfaiz8@gmail.com
           </Text>
 
           <SimpleGrid columns={[1, 2, 2, 2]} spacing="10px" w="80%">
