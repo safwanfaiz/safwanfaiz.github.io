@@ -101,7 +101,7 @@ import {
                     window.open("https://expirianceshala.vercel.app/")
                   }
                 >
-                  Live app
+                  Live
                 </Button>
               </HStack>
             </VStack>
@@ -156,7 +156,7 @@ import {
                     window.open("https://rad-alfajores-9f8de0.netlify.app/")
                   }
                 >
-                  Live app
+                  Live
                 </Button>
               </HStack>
             </VStack>
