@@ -16,7 +16,7 @@ import {
 } from "@chakra-ui/react";
 
 import emailjs from "@emailjs/browser";
-import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { useFormik } from "formik";
 import { contactFormSchema } from "../schData/contactform";
 
@@ -117,6 +117,17 @@ function Contact() {
               letterSpacing="2px"
             >
               LinkedIn
+            </Button>
+            <Button
+              onClick={() =>
+                window.open("https://github.com/safwanfaiz")
+              }
+              colorScheme="github"
+              leftIcon={<FaGithub />}
+              fontWeight="semibold"
+              letterSpacing="2px"
+            >
+              Github
             </Button>
           </SimpleGrid>
         </VStack>

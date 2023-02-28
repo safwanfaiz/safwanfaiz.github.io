@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import meIMG from "../Image/my.jpeg";
 import Typewriter from "typewriter-effect";
-import resume from "../Resume/Mohammed_Safwan.pdf";
+import resume from "../Resume/fw18_0935_Safwan-Shaikh_Resume.pdf";
 
 function Home() {
     const { colorMode } = useColorMode();
@@ -89,7 +89,7 @@ function Home() {
                         <Button
                             onClick={() =>
                                 window.open(
-                                    "https://drive.google.com/file/d/1gzkgcaOFXEnfd7fsy9Eu-NigclE_RjvE/view?usp=share_link"
+                                    "https://drive.google.com/file/d/1Iwu8e5TFhN6IGcx8GiIYWNLTKBO1cLny/view?usp=share_link"
                                 )
                             }
                             mt={5}

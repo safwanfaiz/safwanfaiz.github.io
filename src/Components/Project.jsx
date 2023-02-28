@@ -47,21 +47,23 @@ import {
         >
           <VStack
             // -left"
+            // border="1px solid green"
             p={[2, 5]}
             spacing={4}
             borderRadius="0px 45px 0px 45px"
             boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.35) 0px 5px 15px"
+           
           >
             <Text fontSize="2xl" fontWeight="bold" casing="uppercase">
-              Intern Theory
+              Intern Theory CLONE
             </Text>
             <Box className="image-container4">
               <Img src={Interntheory} alt="Bewakoof" h="235" />
             </Box>
   
             <VStack spacing={3} align="left">
-              <Text align="left">
-                Intern theory is an online platform fro students, for internships and to find out the dream team.
+              <Text align="left"  >
+                Intern theory is an online platform for students, for internships and to find out the dream team.
               </Text>
               <HStack>
                 <Text color="red.500" fontWeight="bold">
@@ -73,13 +75,15 @@ import {
                 <Text>Firebase</Text>
                 
               </HStack>
-              <Text color="green.500" fontWeight="bold">Solo project built in 4 day</Text>
+              
+              <Text color="green.500" fontWeight="bold">Solo project Completed in just 4 days</Text>
               <HStack>
                 <Button
                   righticon={<FaGithub />}
                   colorScheme="green"
                   variant="solid"
-                  ml={"200px"}
+                  ml={"110px"}
+                  
                 
                   onClick={() =>
                     window.open(
@@ -110,7 +114,7 @@ import {
             boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.35) 0px 5px 15px"
           >
             <Text fontSize="2xl" fontWeight="bold" casing="uppercase">
-              BEWAKOOF.COM ECOMMERCE
+              BEWAKOOF.COM CLONE
             </Text>
             <Box className="image-container4">
               <Img src={bewakoof1} alt="Bewakoof" h="235" />
@@ -128,13 +132,13 @@ import {
                 <Text>React,</Text>
                 <Text>javascript,</Text>
               </HStack>
-              <Text color="green.500" fontWeight="bold">Solo project built in 4 day</Text>
+              <Text color="green.500" fontWeight="bold">Solo project Completed in just 4 days</Text>
               <HStack>
                 <Button
                   righticon={<FaGithub />}
                   colorScheme="green"
                   variant="solid"
-                  ml={"200px"}
+                  ml={"110px"}
                 
                   onClick={() =>
                     window.open(
@@ -176,7 +180,7 @@ import {
   
             <VStack spacing={3} align="left">
               <Text align="left">
-                This is the clone of Getharvest.com it is basically time management website
+                This is the clone of Getharvest.com it is basically time management website And maintain employee records.
               </Text>
               <HStack>
                 <Text color="red.500" fontWeight="bold">
@@ -186,13 +190,13 @@ import {
                 <Text>CSS,</Text>
                 <Text>JavaScript</Text>
               </HStack>
-              <Text color="green.500" fontWeight="bold">Solo project built in 4 day</Text>
+              <Text color="green.500" fontWeight="bold">Solo project Completed in just 4 days</Text>
               <HStack>
                 <Button
                   righticon={<FaGithub />}
                   colorScheme="green"
                   variant="solid"
-                  ml={"200px"}
+                  ml={"110px"}
                   onClick={() =>
                     window.open("https://github.com/safwanfaiz/statuesque-animal-5788")
                   }
@@ -221,7 +225,7 @@ import {
             boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.35) 0px 5px 15px"
           >
             <Text casing="uppercase" fontSize="2xl" fontWeight="bold" >
-              Getharvest Clone
+              ZEE5 Clone
             </Text>
             <Box className="image-container2">
               <Img src={Zee51} alt="img" h="215" />
@@ -229,7 +233,7 @@ import {
   
             <VStack spacing={3} align="left">
               <Text align="left">
-              Zee5 is basically a movies and tv shows website, there user can see movies and TV shows
+              Zee5 is basically a movies and tv shows website, there user can see LIVE movies and TV shows
               </Text>
               <HStack>
                 <Text color="red.500" fontWeight="bold">
@@ -245,7 +249,7 @@ import {
                   righticon={<FaGithub />}
                   colorScheme="green"
                   variant="solid"
-                  ml={"200px"}
+                  ml={"110px"}
                   onClick={() =>
                     window.open("https://github.com/vikas-011/Zee5_Clone.git")
                   }

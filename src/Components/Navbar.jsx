@@ -21,7 +21,7 @@ import {
   // import Social from "react-social"
   import { Link } from "react-scroll";
   import { useRef } from "react";
-  import myresume from "../Resume/Mohammed_Safwan.pdf";
+  import myresume from "../Resume/fw18_0935_Safwan-Shaikh_Resume.pdf";
   import { DownloadIcon, HamburgerIcon } from "@chakra-ui/icons";
 
   
@@ -208,7 +208,7 @@ import {
                 <Button
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1gzkgcaOFXEnfd7fsy9Eu-NigclE_RjvE/view?usp=share_link"
+                      "https://drive.google.com/file/d/1Iwu8e5TFhN6IGcx8GiIYWNLTKBO1cLny/view?usp=share_link"
                     )
                   }
                   mt={5}
