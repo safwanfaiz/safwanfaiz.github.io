@@ -32,15 +32,17 @@ import {
   
     const { isOpen, onOpen, onClose } = useDisclosure();
     const btnRef = useRef();
-  
+    
     return (
       <>
+      
        <Drawer
           size={["xs", "xs"]}
           isOpen={isOpen}
           placement="top"
           onClose={onClose}
           finalFocusRef={btnRef}
+          
         >
           <DrawerOverlay />
           <DrawerContent>
@@ -133,6 +135,7 @@ import {
               fontWeight="semibold"
               letterSpacing="3px"
             >
+              {/* icon */}
                <IconButton
               ml="12px"
               isRound

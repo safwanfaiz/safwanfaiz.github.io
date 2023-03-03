@@ -58,7 +58,7 @@ import {
               Intern Theory CLONE
             </Text>
             <Box className="image-container4">
-              <Img src={Interntheory} alt="Bewakoof" h="235" />
+              <Img src={Interntheory} alt="Bewakoof" h="215" />
             </Box>
   
             <VStack spacing={3} align="left">
@@ -70,8 +70,8 @@ import {
                   Text Stack:
                 </Text>
                 
-                <Text>Chakra-UI,</Text>
-                <Text>React-Redux</Text>
+                <Text>React,</Text>
+                <Text>Redux,</Text>
                 <Text>Firebase</Text>
                 
               </HStack>
@@ -117,7 +117,7 @@ import {
               BEWAKOOF.COM CLONE
             </Text>
             <Box className="image-container4">
-              <Img src={bewakoof1} alt="Bewakoof" h="235" />
+              <Img src={bewakoof1} alt="Bewakoof" h="215" />
             </Box>
   
             <VStack spacing={3} align="left">
@@ -128,9 +128,9 @@ import {
                 <Text color="red.500" fontWeight="bold">
                   Text Stack:
                 </Text>
-                <Text>Chakra-UI,</Text>
+                <Text>Chakra,</Text>
                 <Text>React,</Text>
-                <Text>javascript,</Text>
+                <Text>javascript</Text>
               </HStack>
               <Text color="green.500" fontWeight="bold">Solo project Completed in just 4 days</Text>
               <HStack>

@@ -24,9 +24,9 @@ const States = () => {
   return (
     <Stack p={5} justify={"center"}  align={"center"}>
       <Flex gap={10} flexDirection={isSmallerThen ? "column" : "row"}>
-        <HStack>
+        {/* <HStack>
           <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=safwanfaiz&layout=compact" />
-        </HStack>
+        </HStack> */}
         <HStack justify="center" data-aos="fade-up">
           <GitHubCalendar
             // transformData={selectLastHalfYear}
