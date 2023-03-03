@@ -47,7 +47,14 @@ import {
           <DrawerContent>
             <DrawerCloseButton />
             <DrawerBody>
+              
               <VStack align="left" spacing={5}>
+              <IconButton w="10%"
+              ml="5px"
+              isRound
+              icon={isDark ? <FaSun /> : <FaMoon />}
+              onClick={toggleColorMode}
+            /> 
                 <Link
                   to="home"
                   smooth={true}
@@ -109,12 +116,7 @@ import {
                     <DownloadIcon ml="9px" />
                   </Button>
                 </a>
-                <IconButton w="15%"
-              ml="12px"
-              isRound
-              icon={isDark ? <FaSun /> : <FaMoon />}
-              onClick={toggleColorMode}
-            /> 
+              
               </VStack>
             </DrawerBody>
           </DrawerContent>
