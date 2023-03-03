@@ -5,7 +5,6 @@ import {
     DrawerBody,
     DrawerCloseButton,
     DrawerContent,
-    DrawerHeader,
     DrawerOverlay,
     Flex,
     HStack,
@@ -110,6 +109,12 @@ import {
                     <DownloadIcon ml="9px" />
                   </Button>
                 </a>
+                <IconButton w="15%"
+              ml="12px"
+              isRound
+              icon={isDark ? <FaSun /> : <FaMoon />}
+              onClick={toggleColorMode}
+            /> 
               </VStack>
             </DrawerBody>
           </DrawerContent>
@@ -127,13 +132,15 @@ import {
           {/* <Social /> */}
           <Spacer />
   
-          <Flex px="22px" align="center">
+          <Flex px="23px" align="center">
             <HStack
-              w="60vw"
+              w="80vw"
               display="flex"
-              justifyContent="space-evenly"
+              justifyContent="Space-between"
               fontWeight="semibold"
-              letterSpacing="3px"
+              letterSpacing="4px"
+              fontSize="20px"
+              
             >
               {/* icon */}
                <IconButton
