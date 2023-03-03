@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1d648e4f.css",
-    "main.js": "/static/js/main.9e3af752.js",
+    "main.js": "/static/js/main.672db67c.js",
     "static/media/Zee51.png": "/static/media/Zee51.83052d2a1d867046cfd1.png",
     "static/media/Interntheory.png": "/static/media/Interntheory.a4fa4e4cdd6b04266f7e.png",
     "static/media/bewakoof1.png": "/static/media/bewakoof1.c49e8268573382ea1696.png",
@@ -24,10 +24,10 @@
     "index.html": "/index.html",
     "static/media/js.svg": "/static/media/js.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.1d648e4f.css.map": "/static/css/main.1d648e4f.css.map",
-    "main.9e3af752.js.map": "/static/js/main.9e3af752.js.map"
+    "main.672db67c.js.map": "/static/js/main.672db67c.js.map"
   },
   "entrypoints": [
     "static/css/main.1d648e4f.css",
-    "static/js/main.9e3af752.js"
+    "static/js/main.672db67c.js"
   ]
 }
