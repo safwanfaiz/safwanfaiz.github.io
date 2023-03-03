@@ -141,7 +141,7 @@ import {
               isRound
               icon={isDark ? <FaSun /> : <FaMoon />}
               onClick={toggleColorMode}
-            />
+            /> 
               <Box cursor="pointer">
                 <Link
                 // border="3px solid blue"

@@ -91,15 +91,15 @@ function Contact() {
             MohammedSafwan Faizahmed 
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
-             Phone No:- +91 7600019111
+             Mo No:- +91 7600019111
           </Text>
           <Text fontSize={["lg", "lg", "2xl", "2xl"]} fontWeight="semibold">
             Gmail :- safwanfaiz8@gmail.com
           </Text>
 
-          <SimpleGrid columns={[1, 2, 2, 2]} spacing="10px" w="80%">
+          <SimpleGrid columns={[1, 3, 3, 3]} spacing="10px" w="90%">
             <Button
-              onClick={() => window.open("https://wa.me/+919824987655")}
+              onClick={() => window.open("https://wa.me/+917600019111")}
               colorScheme="whatsapp"
               leftIcon={<FaWhatsapp />}
               fontWeight="semibold"
@@ -118,7 +118,7 @@ function Contact() {
             >
               LinkedIn
             </Button>
-            <Button
+            {/* <Button
               onClick={() =>
                 window.open("https://github.com/safwanfaiz")
               }
@@ -128,7 +128,17 @@ function Contact() {
               letterSpacing="2px"
             >
               Github
-            </Button>
+            </Button> */}
+            <Button
+                  leftIcon={<FaGithub />}
+              fontWeight="semibold"
+              letterSpacing="2px"
+                  onClick={() =>
+                    window.open("https://github.com/safwanfaiz")
+                  }
+                >
+                  Github
+                </Button>
           </SimpleGrid>
         </VStack>
 
