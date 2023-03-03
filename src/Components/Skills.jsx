@@ -20,6 +20,7 @@ import githublg from "../Image/github.png";
 import Nodejslg from "../Image/nodejs.svg";
 import expresslogo from "../Image/expressjs.svg";
 import Dsa from "../Image/dsa.png";
+import VS from "../Image/VS.png";
 
 function Skills() {
   const { colorMode } = useColorMode();
@@ -246,6 +247,22 @@ function Skills() {
             DSA
           </Text>
         </Box>
+        <Box align="center">
+          <Img
+            boxSize="80px"
+            src={VS}
+            
+          />
+          <Text
+            p="4"
+            fontSize="xl"
+            fontWeight={isDark ? "thin" : "hairline"}
+            letterSpacing="2px"
+          >
+            VS code
+          </Text>
+        </Box>
+        
       </SimpleGrid>
     </Stack>
   );
